@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+    height: 16cm;
+}
+
+div.title{
+    color: white;
+    font-family: "Josefin Sans";
+    
+    width: 11cm;
+    height: 4cm;
+    margin-left: 36%;
+    margin-top: 100px;
+}
+div h1.sub_title{
+    font-size: 100px;
+    letter-spacing: 50px;
+    
+}
+div h3.context{
+    position: absolute;
+    margin-left: 42px;
+    margin-top: -45px;
+    letter-spacing: 5px;
+}
+
+/* input form anamiation */
+.input-text{
+    color: white;
+    margin-top: 120px;
+    margin-left: 40.3%;
+}
+input{
+    color: aliceblue;
+}
+
+input[type=text]{
+    width: 250px;
+    border: 0;
+    padding: 4px 0; 
+    border-bottom: 1px solid #ccc; 
+    background-color: transparent;
+    
+    padding:12px 20px;
+}
+input[type=text]:focus{
+    outline: none;
+    border-bottom: 1px solid lightseagreen;
+}
+
+input[type=submit]{
+    color: black;
+    background-color:blanchedalmond;
+    margin-top: 30px;
+    margin-left: 94px;
+
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+
+    border: 0px;
+}
+input[type=submit]:hover{
+    border: 2px solid whitesmoke;
+    box-shadow: 1px 2px 10px red;
+}
+
+
+div.result{
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    color:rgb(0, 0, 0);
+    font-family: "EB Garamond";
+
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+
+    margin-top: 80px;
+    margin-left: 31.6%;
+}
+
+/*creator name*/
+#creator{
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    right: 80px;
+    margin-top: 160px;
+}
